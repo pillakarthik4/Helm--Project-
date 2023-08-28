@@ -33,5 +33,5 @@ Pre-requisites:
 
 ![Screenshot (18)](https://github.com/pillakarthik4/Microservice-Deploy-using-Helm/assets/130967802/a26fead5-07eb-4873-ab71-b6859df90059)
 
-Credits: DevOps Coach for source code 
+Credits: DevOps Coach for source code & beautiful content
 
