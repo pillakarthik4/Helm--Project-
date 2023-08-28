@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
     <link data-th-href="@{/css/main.css?{id}(id=${timestamp})}" rel="stylesheet">
     <title>Hello Docker + Spring Boot + Helm + Kubernetes</title>
 </head>
-
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <img class="img1" src="https://assets.entrepreneur.com/content/3x2/2000/20180703190744-rollsafe-meme.jpeg"
-            alt="Hakuna Matata" srcset="">
-    </nav>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="www.coachdevops.com">https://www.coachdevops.com</div></a>
+</nav>
 
-    <main role="main" class="container">
-        <div class="starter-template">
-            <h1 th:text="${title}">Default title.</h1>
-            <p th:text="${msg}">Default text.</p>
-        </div>
-    </main>
+<main role="main" class="container">
+    <div class="starter-template">
+        <h1 th:text="${title}">Default title.</h1>
+        <p th:text="${msg}">Default text.</p>
+    </div>
+</main>
 
-    <script data-th-src="@{/js/main.js}"></script>
+<script data-th-src="@{/js/main.js}"></script>
 </body>
 
 </html>
